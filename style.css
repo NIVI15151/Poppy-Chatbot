@@ -1,0 +1,47 @@
+#chatbotContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1000; /* Adjust z-index as needed */
+}
+
+
+#openChatbot {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f5f6f6;
+    color: #131212;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Make sure the button is above the chatbot */
+}
+
+
+#openChatbot:hover {
+    background: #897999;
+}
+
+#closeChatbot {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: #555;
+    outline: none;
+}
+
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
